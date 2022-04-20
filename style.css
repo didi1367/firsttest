@@ -1,3 +1,111 @@
-p{
-    color: rgba(23, 177, 31, 0.336);
+body {
+    font-size: 30px;
+    font-family: sans-serif;
 }
+
+@font-face {
+    font-family: 'IranNastaliq';
+    /* src: url('fonts/IranNastaliq.ttf') format('ttf'); */
+    /* src: url('fonts/IranNastaliq.eot') format('eot'); */
+    /* src: url('fonts/IranNastaliq.woff') format('woff'); */
+}
+span{
+    font-family: 'IranNastaliq';
+    text-shadow: 1px 0px 0px red, -1px 0px 0px blue, 0px 1px 0px rgba(42, 182, 7, 0.705),3px 1px 0px rgb(35, 238, 238) ;
+}
+.menu {
+    width: 390px;
+    text-align: left;
+    float: left;
+    word-spacing: 0px;
+    letter-spacing: 80px;
+}
+
+.menucont {}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px -3px 2rem rgb(32, 32, 32);
+    text-shadow: 1px -4px 2rem rgb(190, 30, 30);
+}
+
+div {
+    /* font-size: 100%; */
+    /* background-image: url('1.jpg'); */
+    border: 2px solid blue;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.a {
+    direction: rtl;
+
+}
+
+img {
+    width: 50px;
+    margin: 0;
+    background-origin: border-box;
+    /* vertical-align: bottom;
+    text-transform: lowercase uppercase capitalize ;
+    white-space: nowrap ;
+    text-shadow: 2px -3px 2vw rgb(32, 32, 32);
+    box-shadow: 3px -5px 7px red; */
+}
+
+p {
+    font-size: 2vw;
+    font-family: IranNastaliq;
+    color: red;
+    background-color: aqua;
+    border-width: 1vw;
+    border-color: rgba(23, 177, 31, 0.1);
+    border-style: solid;
+    padding: 2ch;
+    text-align: justify;
+    direction: ltr;
+    white-space: nowrap normal;
+}
+
+.bor {
+    background-clip: border-box;
+}
+
+.pad {
+    background-clip: padding-box;
+
+}
+
+.box {
+    background-clip: content-box;
+}
+
+.boxmodel {
+    color: rebeccapurple;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+
+}
+
+.inbox {
+    background-color: beige;
+    margin: 30px;
+}
+
+.text {
+    background: none;
+    background-clip: ;
+    background-origin: content-box;
+    background-position: right top;
+    background-position: 12% 25%;
+    background-position: 20px 10px;
+    background-size: 60% 50px;
+    border-style: up R B L;
+    border-width: thick 2% 3px;
+    border-color: up right bottom left;
+    border-left: 1px groove purple;
+    outline: 2px solid red;
+    outline-offset: 4px;
+}
+
